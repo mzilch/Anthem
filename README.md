@@ -5,7 +5,7 @@ This is a Java/Maven project created in Eclipse IDE
 I've created a small sampling of 5 Java TestNG Selenium UI tests starting on these Anthem's public website Urls:  
 Start Pages:  
 1.  asdf  
-2.  adsf
+2.  adsf  
 Each test is associated with one of more webpages  
 Each webpage has its own Page Object Model (POM) .java file to manage Selenium Xpath Locators  
 Test can be run individually or by running them all in parallel as a suite of tests by simply running the testng.xml file  
