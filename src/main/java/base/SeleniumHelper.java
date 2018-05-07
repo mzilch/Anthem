@@ -17,6 +17,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import base.TestBaseSetup;
+@SuppressWarnings("unused")
 
 public class SeleniumHelper {	
 	
