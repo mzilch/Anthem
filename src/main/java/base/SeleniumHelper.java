@@ -4,7 +4,6 @@ import java.net.MalformedURLException;
 import java.util.Iterator;
 import java.util.Properties;
 import java.util.Set;
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
