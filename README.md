@@ -3,7 +3,7 @@ A sampling of tests run against some of Anthem URLS
 
 This is a Java/Maven project created in Eclipse IDE
 I've created a small sampling of 5 Java TestNG Selenium UI tests starting on these Anthem's public website Urls:
-Start Pages:
+Start Pages: 
   1)
   2)
 Each test is associated with one of more webpages
