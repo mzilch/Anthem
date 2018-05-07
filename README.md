@@ -9,5 +9,6 @@ Start Pages:
 
 Each test is associated with one or more webpages  
 Each webpage has its own Page Object Model (POM) .java file to manage Selenium Xpath Locators and some basic page verifications  
+## Running Tests  
 Test can be run individually or by running them all in parallel as a suite of tests by simply running the testng.xml file  
 The testng.xml allows you to run these all together in parallel so you can get more testing executed in the shortest period of time  
