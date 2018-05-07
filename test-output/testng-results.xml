@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel test suite" duration-ms="53818" started-at="2018-05-06T22:20:47Z" finished-at="2018-05-06T22:21:40Z">
+    <groups>
+    </groups>
+    <test name="Test 1st parallel" duration-ms="53818" started-at="2018-05-06T22:20:47Z" finished-at="2018-05-06T22:21:40Z">
+      <class name="testcases.TestNG_TestCase14">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String)[pri:0, instance:testcases.TestNG_TestCase14@5e3a8624]" name="initializeTestBaseSetup" is-config="true" duration-ms="25111" started-at="2018-05-06T18:20:47Z" finished-at="2018-05-06T18:21:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestNG_TestCase14@5e3a8624]" name="setUp" is-config="true" duration-ms="12" started-at="2018-05-06T18:21:12Z" finished-at="2018-05-06T18:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestCase14_Test()[pri:0, instance:testcases.TestNG_TestCase14@5e3a8624]" name="TestCase14_Test" duration-ms="20067" started-at="2018-05-06T18:21:12Z" finished-at="2018-05-06T18:21:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase14_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestNG_TestCase14@5e3a8624]" name="tearDown" is-config="true" duration-ms="754" started-at="2018-05-06T18:21:32Z" finished-at="2018-05-06T18:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestNG_TestCase14 -->
+      <class name="testcases.TestNG_TestCase731">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String)[pri:0, instance:testcases.TestNG_TestCase731@6a4f787b]" name="initializeTestBaseSetup" is-config="true" duration-ms="35452" started-at="2018-05-06T18:20:47Z" finished-at="2018-05-06T18:21:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestNG_TestCase731@6a4f787b]" name="setUp" is-config="true" duration-ms="2" started-at="2018-05-06T18:21:22Z" finished-at="2018-05-06T18:21:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestCase731_Test()[pri:0, instance:testcases.TestNG_TestCase731@6a4f787b]" name="TestCase731_Test" duration-ms="10565" started-at="2018-05-06T18:21:22Z" finished-at="2018-05-06T18:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase731_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestNG_TestCase731@6a4f787b]" name="tearDown" is-config="true" duration-ms="461" started-at="2018-05-06T18:21:33Z" finished-at="2018-05-06T18:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestNG_TestCase731 -->
+      <class name="testcases.TestNG_TestCase834">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String)[pri:0, instance:testcases.TestNG_TestCase834@5c3bd550]" name="initializeTestBaseSetup" is-config="true" duration-ms="10535" started-at="2018-05-06T18:20:47Z" finished-at="2018-05-06T18:20:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestNG_TestCase834@5c3bd550]" name="setUp" is-config="true" duration-ms="17" started-at="2018-05-06T18:20:57Z" finished-at="2018-05-06T18:20:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestCase834_Test()[pri:0, instance:testcases.TestNG_TestCase834@5c3bd550]" name="TestCase834_Test" duration-ms="42688" started-at="2018-05-06T18:20:57Z" finished-at="2018-05-06T18:21:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase834_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestNG_TestCase834@5c3bd550]" name="tearDown" is-config="true" duration-ms="495" started-at="2018-05-06T18:21:40Z" finished-at="2018-05-06T18:21:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestNG_TestCase834 -->
+      <class name="testcases.TestNG_TestCase220">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String)[pri:0, instance:testcases.TestNG_TestCase220@91161c7]" name="initializeTestBaseSetup" is-config="true" duration-ms="5276" started-at="2018-05-06T18:20:47Z" finished-at="2018-05-06T18:20:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestNG_TestCase220@91161c7]" name="setUp" is-config="true" duration-ms="63" started-at="2018-05-06T18:20:52Z" finished-at="2018-05-06T18:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestCase220_Test()[pri:0, instance:testcases.TestNG_TestCase220@91161c7]" name="TestCase220_Test" duration-ms="25555" started-at="2018-05-06T18:20:52Z" finished-at="2018-05-06T18:21:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase220_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestNG_TestCase220@91161c7]" name="tearDown" is-config="true" duration-ms="3285" started-at="2018-05-06T18:21:18Z" finished-at="2018-05-06T18:21:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestNG_TestCase220 -->
+      <class name="testcases.TestNG_TestCase374">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String)[pri:0, instance:testcases.TestNG_TestCase374@604ed9f0]" name="initializeTestBaseSetup" is-config="true" duration-ms="17555" started-at="2018-05-06T18:20:47Z" finished-at="2018-05-06T18:21:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestNG_TestCase374@604ed9f0]" name="setUp" is-config="true" duration-ms="10" started-at="2018-05-06T18:21:04Z" finished-at="2018-05-06T18:21:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestCase374_Test()[pri:0, instance:testcases.TestNG_TestCase374@604ed9f0]" name="TestCase374_Test" duration-ms="24808" started-at="2018-05-06T18:21:04Z" finished-at="2018-05-06T18:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase374_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestNG_TestCase374@604ed9f0]" name="tearDown" is-config="true" duration-ms="1400" started-at="2018-05-06T18:21:29Z" finished-at="2018-05-06T18:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestNG_TestCase374 -->
+    </test> <!-- Test 1st parallel -->
+  </suite> <!-- Parallel test suite -->
+</testng-results>
