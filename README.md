@@ -6,6 +6,8 @@ I've created a small sampling of 5 Java TestNG Selenium UI tests
 The tests each start on one of these 2 Anthem's public website Urls:  
 1.  https://shop.anthem.com/sales/eox/shop/demographics/home/snq?execution=e1s1  
 2.  https://www.anthem.com/individual-and-family/  
+
+### Page Object Models  
 Each test is associated with one or more webpages  
 Each webpage has its own Page Object Model (POM) .java file to manage Selenium Xpath Locators and some basic page verifications  
 ### Running Tests  
