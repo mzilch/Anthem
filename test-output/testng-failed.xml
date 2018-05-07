@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parallel test suite]" parallel="classes">
+  <listeners>
+    <listener class-name="base.CustomisedListener"/>
+  </listeners>
+  <test name="Test 1st parallel(failed)" parallel="classes">
+    <parameter name="browserType" value="firefox"/>
     <classes>
-      <class name="testcases.TestNG_TestCase374">
+      <class name="testcases.TestNG_TestCase14">
+        <methods>
+          <include name="TestCase14_Test"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.TestNG_TestCase14 -->
+      <class name="testcases.TestNG_TestCase834">
         <methods>
           <include name="setUp"/>
           <include name="initializeTestBaseSetup"/>
           <include name="tearDown"/>
-          <include name="TestCase374_Test"/>
         </methods>
-      </class> <!-- testcases.TestNG_TestCase374 -->
+      </class> <!-- testcases.TestNG_TestCase834 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test 1st parallel(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->

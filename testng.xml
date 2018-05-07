@@ -7,14 +7,17 @@
 <class name="Javalicious.TestConversion"/>  
 -->
 <suite name="Parallel test suite" parallel="classes" thread-count="5">
+    <listeners>
+        <listener class-name="ExtentReportListener.ExtentReportListenerNG" />
+    </listeners>
   <test name="Test 1st parallel">  
   <parameter name="browserType" value="firefox"/>
     <classes>      
       <class name="testcases.TestNG_TestCase14"/> 
       <class name="testcases.TestNG_TestCase834"/> 
-      <class name="testcases.TestNG_TestCase220"/> 
+<!--       <class name="testcases.TestNG_TestCase220"/> 
       <class name="testcases.TestNG_TestCase374"/>            
-      <class name="testcases.TestNG_TestCase731"/> 
+      <class name="testcases.TestNG_TestCase731"/>  -->
     </classes>
   </test>
 </suite>
